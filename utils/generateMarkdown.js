@@ -63,7 +63,7 @@ function generateMarkdown({ name, description, installation, usage, license, con
   ${tests}
   
   ## Questions
-  Q: What is your Github? A: My github is ${github}.\
+  Q: What is your Github? A: My github is [${github}](www.github.com/${github}).\
   Q: What is your email? A: My email is ${email}.
   `;
 }

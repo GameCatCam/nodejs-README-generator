@@ -28,6 +28,6 @@
   There are no tests for this project.
   
   ## Questions
-  Q: What is your Github? A: My github is GameCatCam.\
+  Q: What is your Github? A: My github is [GameCatCam](www.github.com/GameCatCam).\
   Q: What is your email? A: My email is cameronrawlins11@gmail.com.
   

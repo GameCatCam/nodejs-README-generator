@@ -27,6 +27,9 @@
   
   ## Tests
   There are no tests for this project.
+
+  ## Credits
+  Starter code provided by EdX but significant portions other than that were done by me (Cameron Rawlins) with assistance from websites such as [The Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) or [The Inquirer Package Guide](https://www.npmjs.com/package/inquirer/v/8.2.4).
   
   ## Questions
   Q: What is your Github? A: My github is [GameCatCam](www.github.com/GameCatCam).\

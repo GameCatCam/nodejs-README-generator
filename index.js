@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Includes the packages we need to run the program.
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// Array full of inquirer prompt questions.
 const questions = [
     'What is the title of your project?',
     'Can you provide a description of your project?',
@@ -16,15 +16,17 @@ const questions = [
     'How do you intend for users to test your project?'
 ];
 
-// TODO: Create a function to write README file
+// Function that creates the README file.
 function writeToFile(answers) {
+    // This sets the name for the file based on the name given in the prompts.
     const file = `${answers.name}.md`
     
+    // Writes the content in the template to a README.md file, but will throw an error instead if there is one to throw.
     fs.writeFile(file, generateMarkdown(answers), (err) =>
     err ? console.log(err) : console.log('Successfully generated README'))
 }
 
-// TODO: Create a function to initialize app
+// Function that runs when the javascript is run through Node. Includes the inquirer prompts that filter into the file generation.
 function init() {
     inquirer
         .prompt ([

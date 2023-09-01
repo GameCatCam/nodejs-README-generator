@@ -16,7 +16,8 @@
   All one needs to do to install this project is to clone the repo onto your local drive.
   
   ## Usage
-  You may use this to quickly generate your own READMEs. All you need to do after cloning the repo is to navigate to the appropriate directory in your console and run 'node.js.' (Please make sure you have node installed on your computer).
+  You may use this to quickly generate your own READMEs. All you need to do after cloning the repo is to navigate to the appropriate directory in your console and run 'node.js.' (Please make sure you have node installed on your computer).\
+  Link to the [video](https://drive.google.com/file/d/1JMYubpyab5znWjHgslNuXSISU6lX_PKr/view) tutorial on how to use the project.
   
   ## License
   This project is protected under the MIT license
